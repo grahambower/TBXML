@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.summary       = 'A fast XML parser.'
   spec.source        = { :git => 'https://github.com/codebots-ltd/TBXML.git', :tag => 'v1.5' }
 
-  spec.ios.deployment_target  = '12.0'
+  spec.ios.deployment_target  = '17.0'
 
   spec.source_files       = 'TBXML-Code/*.{h,m}', 'TBXML-Headers/*.{h,m}'
   spec.ios.framework  = 'UIKit'
